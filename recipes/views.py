@@ -12,4 +12,4 @@ def home(request: HttpRequest):
     """
         Minha View Home
     """
-    return render(request, 'recipes/home.html')
+    return render(request, 'recipes/pages/home.html')
